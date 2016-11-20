@@ -1,0 +1,151 @@
+body * {
+    box-sizing: border-box;
+}	
+
+.main-box-area {
+	border : 3px solid grey;
+	margin: 100px auto;
+	text-align: center;
+	height:600px;
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	border-radius: 5%;
+	background-color: lightblue;
+}
+
+.text-area {
+	font-family: 'Lato', sans-serif;
+	height:250px;
+	width:90%;
+	margin: 0 auto;
+	font-size: 25px;
+	line-height: 1.5;
+	text-align:center;
+}
+
+.proceed-button {
+	margin: 30px auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgreen;
+	border-radius: 7%;
+	height: 40px;
+	width: 100px;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+	
+}
+
+.main-image {
+	position: relative;
+	width: 500px;
+	top: -100px;
+	left: calc(50% - 250px);
+	border-radius: 50%;
+	}
+
+.answers-area {
+	margin: 0 auto;
+	width:100%;
+	height: 225px;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+	line-height: 1.8;
+	
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.counter {
+	width: 130px;
+	height: 100px;
+	margin: 0;
+	clear:both;
+	display: inline-block;
+	vertical-align:top;
+	text-align:left;
+}
+
+.score {
+	width:130px;
+	display: inline-block;
+	text-align:right;
+	height: 100px;
+	display: inline-block;
+	vertical-align:top;
+	
+}
+.submit-button {
+	margin: 30px auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgreen;
+	border-radius: 7%;
+	height: 40px;
+	width: 100px;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.next-button {
+	margin: 30px auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgreen;
+	border-radius: 7%;
+	height: 40px;
+	width: 100px;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+
+.start-over {
+	margin: 30px auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgreen;
+	border-radius: 7%;
+	height: 40px;
+	width: 100px;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+
+.bigger-div {
+	width:100%;
+	height:100px;
+	display:block;
+}
+
+#button-div {
+	text-align:center;
+	width: 130px;
+	height: 100px;
+	margin: 0;
+	display: inline-block;
+}
+
+.green {
+	color: green;	
+}
+
+.red {
+	color: red;
+}
